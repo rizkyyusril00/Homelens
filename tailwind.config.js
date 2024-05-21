@@ -74,7 +74,7 @@ export default {
         tertiary: '#233942',
       },
       screens: {
-        'xs': '425px',
+        'xs': '400px',
         'md': '768px',
         'lg': '1024px',
         '2lg': '1260px',

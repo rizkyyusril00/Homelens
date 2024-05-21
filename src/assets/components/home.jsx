@@ -48,7 +48,7 @@ export default function Home() {
                             {/* box atas */}
                             <div className='bg-primary px-5 xs:px-6 md:px-12 h-1/2 relative z-20'>
                                 <p className='text-[#898D92] text-[24px] leading-tight absolute top-1/2 transform -translate-y-1/2 w-[80%]'>Pellentesque mauris a lobortis in bibendum sed lobortis semper. Eget eu vel eu vitae.</p>
-                                <div className='absolute bottom-24 flex items-center justify-center left-1/2 transform -translate-x-1/2 gap-4'>
+                                <div className='absolute bottom-20 xs:bottom-24 flex items-center justify-center left-1/2 transform -translate-x-1/2 gap-4'>
                                     <div className='bg-tertiary w-20 h-[3px]'></div>
                                     <a href="https://x.com/?lang=en-id" target='_blank' className='text-[22px] text-tertiary transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer animate-fade'><i className="bi bi-twitter-x"></i></a>
                                     <a href="https://www.facebook.com/" target="_blank" className='text-[22px] text-tertiary transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer animate-fade'><i className="bi bi-facebook"></i></a>

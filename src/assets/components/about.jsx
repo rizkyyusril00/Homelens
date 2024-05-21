@@ -7,7 +7,7 @@ import AboutSliderMobile from './about-slider2'
 export default function About() {
     return (
         <>
-            <section id='aboutus' className="about">
+            <section id='aboutus' className="about overflow-hidden">
                 <div className="mx-auto">
                     <div className="about-box bg-primary py-20 lg:py-44">
                         {/* laptop-desktop */}
