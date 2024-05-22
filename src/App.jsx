@@ -8,13 +8,15 @@ import Preloader from './assets/components/preloader.jsx'
 import Price from './assets/components/price-list.jsx'
 import Testimoni from './assets/components/testimoni.jsx'
 import Whyme from './assets/components/whyme.jsx'
+import Zz from './assets/components/zz.jsx'
 
 function App() {
 
   return (
     <>
         <Nav />
-        <Home />
+        {/* <Home /> */}
+        <Zz />
         <About />
         <Portfolio />
         <Whyme />

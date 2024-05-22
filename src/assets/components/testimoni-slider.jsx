@@ -6,11 +6,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
 
 
 // import required modules
-import { Pagination, Autoplay } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 
 export default function TestimoniSlider() {
     const reviews = [
@@ -48,15 +47,12 @@ export default function TestimoniSlider() {
         <Swiper
             slidesPerView={3}
             spaceBetween={30}
-            pagination={{
-            clickable: true,
-            }}
             autoplay={{
                 delay: 3000,
                 disableOnInteraction: false,
             }}
             loop={true}
-            modules={[Pagination, Autoplay]}
+            modules={[Autoplay]}
             className="mySwiper hidden lg:block"
         >
             {reviews.map((review,index) =>(

@@ -31,6 +31,18 @@
 .about-list2{
     font-family: "Lato", sans-serif;
 }
+.home-box{
+    background-image: url(../src/assets/img/bg-hero.png);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+.home-box-mobile{
+    background-image: url(../src/assets/img/bg-hero-mobile.png);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
 /* whyme */
 .whyme-font{
     font-family: "Cormorant", serif;

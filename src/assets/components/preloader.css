@@ -13,6 +13,13 @@
     overflow: hidden;
     color: white;
 }
+@media only screen and (min-width: 768)  {
+    .preloader .texts-container{
+        font-size: 40px;
+        height: 60px;
+        width: 35%;
+    }
+}
 @media only screen and (min-width: 1366px)  {
     .preloader .texts-container{
         font-size: 30px;
