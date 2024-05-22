@@ -7,9 +7,9 @@ export default {
   theme: {
     extend: {
       animation:{
-        fade : 'fade 2s ease-in-out forwards',
-        fade2 :'fade2 2s ease-in-out forwards',
-        fade3 :'fade3 2s ease-in-out forwards',
+        fade : 'fade 6s ease-in-out',
+        fade2 :'fade2 6s ease-in-out',
+        fade3 :'fade3 6s ease-in-out',
         dropdownin:'dropdownin 0.2s ease-in-out forwards',
         dropdownout:'dropdownout 0.2s ease-in-out forwards'
       },
@@ -21,7 +21,8 @@ export default {
           },
           to:{
             opacity:1,
-            transform:'translateY(0)'
+            transform:'translateY(0)',
+            delay: 'delay-1000'
           },
           
         },

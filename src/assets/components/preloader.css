@@ -1,0 +1,43 @@
+.preloader{
+    z-index: 55;
+    @apply h-screen w-full bg-primary text-white fixed bottom-0 left-0 right-0 flex justify-center items-center overflow-hidden
+}
+.preloader .texts-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 260px;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    color: white;
+}
+@media only screen and (min-width: 1366px)  {
+    .preloader .texts-container{
+        font-size: 30px;
+        height: 60px;
+        width: 35%;
+    }
+}
+@media only screen and (min-width: 1440px)  {
+    .preloader .texts-container{
+        font-size: 35px;
+        height: 60px;
+        width: 35%;
+    }
+}
+@media only screen and (min-width: 1960px)  {
+    .preloader .texts-container{
+        font-size: 40px;
+        height: 60px;
+        width: 35%;
+    }
+}
+@media only screen and (min-width: 2500px)  {
+    .preloader .texts-container{
+        font-size: 60px;
+        height: 60px;
+        width: 35%;
+    }
+}

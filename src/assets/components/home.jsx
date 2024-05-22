@@ -12,7 +12,7 @@ export default function Home() {
                         {/* laptop-pc */}
                         <div className="hidden lg:flex relative overflow-hidden">
                             {/* hero */}
-                            <div className='h-[600px] 4k:w-[1300px] xl:h-fit 3lg:h-[700px] absolute bottom-0 lg:left-[180px] 2lg:left-[330px] 3lg:left-[295px] xl:left-[240px] 2xl:left-[510px] 4k:left-[680px] lg:block hidden z-20 animate-fade'>
+                            <div className='h-[600px] 4k:w-[1300px] xl:h-fit 3lg:h-[700px] absolute bottom-0 lg:left-[180px] 2lg:left-[330px] 3lg:left-[295px] xl:left-[240px] 2xl:left-[510px] 4k:left-[680px] lg:block hidden z-20 animate-fade delay-1000'>
                                 <img src={Hero} alt="" className='w-full h-full object-cover'/>
                                 <div className='absolute bottom-10 left-1/2 transform -translate-x-1/2 z-30 flex items-center justify-center w-[238px] h-[66px] 2xl:w-[250px] 2xl:h-[72px] 4k:w-[300px] 4k:h-[95px] border-2 border-[#898D92] group hover:bg-secondary hover:scale-95 transition-all duration-300 ease-in-out'>
                                     <p className='text-[#898D92] text-[26px] 2xl:text-3xl 4k:text-[36px] text-center leading-tight group-hover:text-white'>Order Now</p>
