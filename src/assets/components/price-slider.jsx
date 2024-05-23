@@ -11,6 +11,7 @@ import 'swiper/css/pagination';
 import { EffectCoverflow, Pagination} from 'swiper/modules';
 
 export default function PriceSlider() {
+    const nomorWhatsapp = "6285720714737"
     const prices= [
         {
             id : 1,
@@ -90,7 +91,7 @@ export default function PriceSlider() {
                             </div>
                             {/* bottom */}
                             <div className="flex items-center justify-center bg-transparent border-2 4k:border-4 border-white px-2 py-3 xl:px-4 xl:py-5 4k:px-6 4k:py-5 transition-all duration-500 ease-in-out hover:scale-95 hover:bg-secondary cursor-pointer">
-                                <p className="price-font-2 text-white text-center text-[20px] 2lg::text-[24px] xl:text-[28px] 4k:text-[40px]">Photo Session Schedule</p>
+                                <a href={`https://wa.me/${nomorWhatsapp}`} target="_blank" rel="noopener noreferrer" className="price-font-2 text-white text-center text-[20px] 2lg::text-[24px] xl:text-[28px] 4k:text-[40px]">Photo Session Schedule</a>
                             </div>
                         </div>
                     </div>
