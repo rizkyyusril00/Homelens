@@ -51,8 +51,8 @@ export default function PortfolioSlider() {
                         {/* box bawah */}
                         <div className='w-full h-[50%] relative group transition-all ease-in-out duration-500'>
                             <img src={Gambar4} alt="" className='h-full w-full object-cover transition-all ease-in-out duration-500'/>
-                            <div className='h-full w-full bg-[#898D92] bg-opacity-20 backdrop-filter backdrop-blur-[2px] absolute top-0 transition-all ease-in-out duration-500 group-hover:backdrop-blur-none'>
-                                <div className='bg-[#666666] cursor-pointer bg-opacity-40 transition-all ease-in-out duration-500 group-hover:scale-105 py-2 px-12 xl:py-4 xl:px-14 4k:py-5 4k:px-20 flex flex-col justify-center items-center gap-1 absolute top-[180px] left-[80px] 2lg:top-[120px] 2lg:left-32 3lg:top-40 3lg:left-40 xl:top-[200px] xl:left-[240px] 4k:top-[220px] 4k:left-[300px]'>
+                            <div className='h-full w-full bg-[#898D92] bg-opacity-20 backdrop-filter backdrop-blur-[2px] absolute top-0 transition-all ease-in-out duration-500 group-hover:backdrop-blur-none flex justify-center items-center place-items-center'>
+                                <div className='bg-[#666666] cursor-pointer bg-opacity-40 transition-all ease-in-out duration-500 group-hover:scale-95 py-2 px-12 xl:py-4 xl:px-14 4k:py-5 4k:px-20 flex flex-col justify-center items-center gap-1 mx-auto w-1/2'>
                                     <p className='portfolio-font-2 text-white text-[30px] xl:text-[34px] 4k:text-[38px] font-semibold leading-tight'>See More</p>
                                     <i className="bi bi-arrow-right text-white text-[36px] xl:text-[40px] 4k:text-[44px]"></i>
                                 </div>

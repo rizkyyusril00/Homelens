@@ -10,6 +10,7 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 
 export default function PriceSlider2() {
+    const nomorWhatsapp = "6285720714737"
     const prices= [
         {
             id : 1,
@@ -81,7 +82,7 @@ export default function PriceSlider2() {
                             </div>
                             {/* bottom */}
                             <div className="flex items-center justify-center bg-transparent border-2 border-white px-2 py-3">
-                                <p className="price-font-2 text-white text-center text-[18px] md:text-[24px]">Photo Session Schedule</p>
+                                <a href={`https://wa.me/${nomorWhatsapp}`} target="_blank" rel="noopener noreferrer" className="price-font-2 text-white text-center text-[18px] md:text-[24px]">Photo Session Schedule</a>
                             </div>
                         </div>
                     </div>

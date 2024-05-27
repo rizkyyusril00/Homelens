@@ -43,8 +43,8 @@ export default function PortfolioSlider2() {
                             {/* box bawah */}
                             <div className='w-full h-[50%] relative group transition-all ease-in-out duration-500'>
                                 <img src={Gambar4} alt="" className='h-full w-full object-cover transition-all ease-in-out duration-500'/>
-                                <div className='h-full w-full bg-[#898D92] bg-opacity-20 backdrop-filter backdrop-blur-[2px] absolute top-0 transition-all ease-in-out duration-500 group-hover:backdrop-blur-none'>
-                                    <div className='bg-[#666666] cursor-pointer bg-opacity-40 transition-all ease-in-out duration-500 group-hover:scale-105 py-2 px-12 flex flex-col justify-center items-center gap-1 absolute top-[160px] left-[85px]'>
+                                <div className='h-full w-full bg-[#898D92] bg-opacity-20 backdrop-filter backdrop-blur-[2px] absolute top-0 transition-all ease-in-out duration-500 group-hover:backdrop-blur-none flex justify-center items-center place-items-center'>
+                                    <div className='bg-[#666666] cursor-pointer bg-opacity-40 transition-all ease-in-out duration-500 group-hover:scale-105 py-2 px-12 flex flex-col justify-center items-center gap-1 mx-auto w-1/2'>
                                         <p className='portfolio-font-2 text-white text-[30px] xl:text-[34px] 4k:text-[38px] font-semibold leading-tight'>See More</p>
                                         <i className="bi bi-arrow-right text-white text-[36px] xl:text-[40px] 4k:text-[44px]"></i>
                                     </div>
