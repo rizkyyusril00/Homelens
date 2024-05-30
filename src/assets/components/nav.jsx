@@ -38,7 +38,7 @@ export default function Nav() {
                     <div className="nav-box bg-[#898D92] bg-opacity-20 py-6 xl:py-8 2xl:py-9 4k:py-14 px-5 xs:px-6 md:px-12 lg:px-14 2lg:px-20 xl:px-24 2xl:px-40 backdrop-filter backdrop-blur-xl w-full">
                         <div className="flex justify-between">
                             {/* logo */}
-                            <div className='w-52 md:w-[190px] lg:w-auto 2xl:w-[300px] 4k:w-[500px]'>
+                            <div className='w-auto md:w-[190px] lg:w-auto 2xl:w-[300px] 4k:w-[500px]'>
                                 <img src={Logo5} alt="" className='w-full h-full'/>
                             </div>
                             {/* menus */}

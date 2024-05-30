@@ -12,7 +12,7 @@ export default function Footer() {
                         {/* Laptop-Desktop */}
                         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-0 lg:justify-between">
                             {/* logo */}
-                            <div className='w-52 md:w-[220px] lg:w-auto 2xl:w-[300px] 4k:w-[500px]' data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                            <div className='w-auto md:w-[220px] lg:w-auto 2xl:w-[300px] 4k:w-[500px]' data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
                                 <img src={Logo5} alt="" className='w-full h-full'/>
                             </div>
                             {/* icon */}
