@@ -54,7 +54,7 @@ export default function AboutSlider() {
             className="mySwiper"
         >
             {Images.map((Image) => (
-                <SwiperSlide key={Image.id} data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <SwiperSlide key={Image.id}>
                     <div className='w-[100%] h-[350px]'>
                         <img src={Image.name} alt="" className='h-full w-full object-cover transition-all ease-in-out duration-500 hover:scale-105'/>
                     </div>

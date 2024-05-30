@@ -6,7 +6,7 @@ import Nav from './assets/components/nav.jsx'
 import Portfolio from './assets/components/portfolio.jsx'
 import Preloader from './assets/components/preloader.jsx'
 import Price from './assets/components/price-list.jsx'
-import Testimoni from './assets/components/testimoni.jsx'
+// import Testimoni from './assets/components/testimoni.jsx'
 import Whyme from './assets/components/whyme.jsx'
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <About />
         <Portfolio />
         <Whyme />
-        <Testimoni />
+        {/* <Testimoni /> */}
         <Price />
         <Preloader />
         <Contact />

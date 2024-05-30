@@ -1,7 +1,9 @@
-import Logo from '../img/logo.png'
+import Logo5 from '../img/logo5.png'
+
 
 
 export default function Footer() {
+    const nomorWhatsapp = "6285175108289"
     return(
         <>
             <section className="footer">
@@ -11,14 +13,13 @@ export default function Footer() {
                         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-0 lg:justify-between">
                             {/* logo */}
                             <div className='w-52 md:w-[220px] lg:w-auto 2xl:w-[300px] 4k:w-[500px]' data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                <img src={Logo} alt="" className='w-full h-full'/>
+                                <img src={Logo5} alt="" className='w-full h-full'/>
                             </div>
                             {/* icon */}
                             <div className='flex gap-6 2xl:gap-10' data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                <i className="bi bi-twitter-x text-[22px] 3lg:text-[24px] xl:text-[28px] 2xl:text-[30px] 4k:text-[38px] text-white transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer"></i>
-                                <i className="bi bi-facebook text-[22px] 3lg:text-[24px] xl:text-[28px] 2xl:text-[30px] 4k:text-[38px] text-white transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer"></i>
-                                <i className="bi bi-linkedin text-[22px] 3lg:text-[24px] xl:text-[28px] 2xl:text-[30px] 4k:text-[38px] text-white transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer"></i>
-                                <i className="bi bi-instagram text-[22px] 3lg:text-[24px] xl:text-[28px] 2xl:text-[30px] 4k:text-[38px] text-white transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer"></i>
+                                <a href="https://www.tiktok.com/@homelens.studio?_t=8miYqh4iGwy&_r=1" target="_blank" rel="noopener noreferrer" className='text-[22px] 3lg:text-[24px] xl:text-[28px] 2xl:text-[36px] 4k:text-[48px] text-white transition-all ease-in-out duration-500 hover:-mt-2 cursor-pointer'><i className="bi bi-tiktok"></i></a>
+                                <a href={`https://wa.me/${nomorWhatsapp}`} target="_blank" rel="noopener noreferrer" className='group text-[22px] 3lg:text-[24px] xl:text-[28px] 2xl:text-[36px] 4k:text-[48px] text-white transition-all ease-in-out duration-500 hover:-mt-2 cursor-pointer'><i className="bi bi-whatsapp"></i></a>
+                                <a href="https://www.instagram.com/homelens.s?igsh=Z2w0MWI3eDRwcDN4&utm_source=qr" target="_blank" rel="noopener noreferrer" className='text-[22px] 3lg:text-[24px] xl:text-[28px] 2xl:text-[36px] 4k:text-[48px] text-white transition-all ease-in-out duration-500 hover:-mt-2 cursor-pointer'><i className="bi bi-instagram"></i></a>
                             </div>
                         </div>
                         <div className='flex items-center justify-center gap-4 mt-32'>

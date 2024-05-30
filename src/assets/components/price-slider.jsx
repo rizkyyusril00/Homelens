@@ -11,35 +11,48 @@ import 'swiper/css/pagination';
 import { EffectCoverflow, Pagination} from 'swiper/modules';
 
 export default function PriceSlider() {
-    const nomorWhatsapp = "6285720714737"
+    const nomorWhatsapp = "6285175108289"
     const prices= [
         {
             id : 1,
-            jenis: 'STANDARD',
-            harga: '$400k',
-            durasi: '3 hours',
-            banyakPhoto: '60 - 80',
-            retouch: '25 items',
-            end: '10 days'
+            star:'bi bi-star-fill text-[#FFDE59]',
+            jenis: 'Self Photo',
+            harga: 'Rp 10K - Rp 20K',
+            durasi: '10 Minutes - 20 Minutes',
+            banyakPhoto: '30 - 100',
+            retouch: 'All Items',
+            end: '10 Minutes'
         },
         {
             id : 2,
-            jenis: 'Premium',
-            harga: '$550k',
-            durasi: '4 hours',
-            banyakPhoto: '85 - 90',
-            retouch: '35 items',
-            end: '7 days'
+            jenis: 'Wedding',
+            star:'hidden',
+            harga: 'Rp 1.5 Juta - Rp. 2.5 Juta',
+            durasi: '1 day',
+            banyakPhoto: '50 - 150',
+            retouch: '25 items - 50 items',
+            end: '1 day'
         },
         {
             id : 3,
-            jenis: 'Pro',
-            harga: '$600',
-            durasi: '6 hours',
-            banyakPhoto: '100 - 130',
-            retouch: '40 items',
-            end: '5 days'
-        }
+            jenis: 'Engagement',
+            star:'hidden',
+            harga: 'Rp 500K - Rp 1 Juta',
+            durasi: '1 hours - 3 hours',
+            banyakPhoto: '50 - 100',
+            retouch: '20 items - 50 items',
+            end: '1 day'
+        },
+        {
+            id : 4,
+            jenis: 'Prawedding',
+            star:'hidden',
+            harga: 'Rp 700K - Rp 1.5 Juta',
+            durasi: '1 hours - 2 hours',
+            banyakPhoto: '50 - 100',
+            retouch: '20 items - 50 items',
+            end: '1 day'
+        }     
     ]
     return (
         <>
@@ -67,7 +80,7 @@ export default function PriceSlider() {
                         <div className="bg-[#898D92] bg-opacity-10 backdrop-filter backdrop-blur-xl p-8 xl:p-10 4k:p-16 flex flex-col gap-8 xl:gap-10 4k:gap-14 transition-all ease-in-out duration-500 border-4 border-transparent hover:border-tertiary overflow-visible">
                             {/* top */}
                             <div className="flex flex-col items-center justify-center gap-0">
-                                <p className="price-font-2 text-white text-center text-[32px] xl:text-[36px] 4k:text-[50px]">{price.jenis}</p>
+                                <p className="price-font-2 text-white text-center text-[32px] xl:text-[36px] 4k:text-[50px]"><i className={price.star}></i> {price.jenis}</p>
                                 <p className="price-font text-white text-center text-[30px] xl:text-[34px] 4k:text-[48px]">{price.harga}</p>
                             </div>
                             {/* middle */}
@@ -81,7 +94,7 @@ export default function PriceSlider() {
                                     <p className="price-font-2 text-white text-[20px] xl:text-[28px] 4k:text-[38px] font-light 2xl:font-semibold">{price.banyakPhoto}</p>
                                 </div>
                                 <div className="flex justify-between">
-                                    <p className="price-font-2 text-white text-[20px] xl:text-[28px] 4k:text-[38px] font-light 2xl:font-semibold">Detailed Retouching</p>
+                                    <p className="price-font-2 text-white text-[20px] xl:text-[28px] 4k:text-[38px] font-light 2xl:font-semibold">Retouching</p>
                                     <p className="price-font-2 text-white text-[20px] xl:text-[28px] 4k:text-[38px] font-light 2xl:font-semibold">{price.retouch}</p>
                                 </div>
                                 <div className="flex justify-between">

@@ -1,4 +1,4 @@
-import Logo from '../img/logo.png'
+import Logo5 from '../img/logo5.png'
 import { Link } from 'react-scroll'
 import { useState } from 'react'
 
@@ -39,7 +39,7 @@ export default function Nav() {
                         <div className="flex justify-between">
                             {/* logo */}
                             <div className='w-52 md:w-[190px] lg:w-auto 2xl:w-[300px] 4k:w-[500px]'>
-                                <img src={Logo} alt="" className='w-full h-full'/>
+                                <img src={Logo5} alt="" className='w-full h-full'/>
                             </div>
                             {/* menus */}
                             <div className='hidden md:flex'>

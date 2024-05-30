@@ -3,6 +3,7 @@ import { Link } from 'react-scroll'
 
 
 export default function Home() {
+    const nomorWhatsapp = "6285175108289"
     return (
         <>
             <section id='home' className="home overflow-hidden">
@@ -16,19 +17,18 @@ export default function Home() {
                                 <Link to='price' smooth={true} offset={-180} duration={500} className='text-[#898D92] text-[24px] 2xl:text-[34px] 4k:text-[40px] text-center leading-tight group-hover:text-white'>Order Now</Link>
                             </div>
                             <div className='flex flex-col absolute top-1/2 transform -translate-y-1/2'>
-                                <p className='hero-fonts font-light text-white lg:text-[70px] 2lg:text-[100px] 2xl:text-[140px] 4k:text-[190px] animate-fade2'>PHOTO</p>
-                                <p className='hero-fonts font-light text-white lg:text-[70px] 2lg:text-[100px] 2xl:text-[140px] 4k:text-[190px] pl-20 2xl:pl-28 animate-fade2'>GRAPHY</p>
+                                <p className='hero-fonts font-light text-white lg:text-[70px] 2lg:text-[100px] 2xl:text-[140px] 4k:text-[190px] animate-fade2 leading-tight'>STUDIO</p>
+                                <p className='hero-fonts font-light text-white lg:text-[70px] 2lg:text-[100px] 2xl:text-[140px] 4k:text-[190px] animate-fade2 leading-tight'>PHOTO</p>
                             </div>
                             <div className='flex flex-col absolute top-1/2 transform -translate-y-1/2 right-[70px] 2lg:right-36 xl:right-28 2xl:right-56 4k:right-44 w-[250px] 3lg:w-[300px] xl:w-[330px] 2xl:w-[350px] 4k:w-[600px] mt-28 2xl:mt-32 4k:mt-44'>
-                                <p className='text-[#898D92] text-[20px] 3lg:text-[24px] xl:text-[30px] 2xl:text-[36px] 4k:text-[55px] leading-tight animate-fade3'>Pellentesque mauris a lobortis in bibendum sed lobortis semper. Eget eu vel eu vitae.</p>
+                                <p className='text-[#898D92] text-[20px] 3lg:text-[24px] xl:text-[30px] 2xl:text-[36px] 4k:text-[55px] leading-tight animate-fade3'>Studio fotografi yang berkomitmen untuk menciptakan pengalaman pemotretan yang personal bagi klien.</p>
                             </div>
                             {/* icons */}
                             <div className='flex flex-col items-center justify-center gap-6 xl:gap-8 4k:gap-9 absolute right-0 top-1/2 transform -translate-y-1/2 h-screen'>
                                 <div className='bg-tertiary w-[2px] 2xl:w-[4px] 4k:w-[6px] h-[12%] 2lg:mt-8 xl:mt-10 4k:mt-14'></div>
-                                <i className="bi bi-twitter-x text-[22px] 3lg:text-[24px] xl:text-[28px] 2xl:text-[36px] 4k:text-[48px] text-tertiary transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer"></i>
-                                <i className="bi bi-facebook text-[22px] 3lg:text-[24px] xl:text-[28px] 2xl:text-[36px] 4k:text-[48px] text-tertiary transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer"></i>
-                                <i className="bi bi-linkedin text-[22px] 3lg:text-[24px] xl:text-[28px] 2xl:text-[36px] 4k:text-[48px] text-tertiary transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer"></i>
-                                <i className="bi bi-instagram text-[22px] 3lg:text-[24px] xl:text-[28px] 2xl:text-[36px] 4k:text-[48px] text-tertiary transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer"></i>
+                                <a href="https://www.tiktok.com/@homelens.studio?_t=8miYqh4iGwy&_r=1" target="_blank" rel="noopener noreferrer" className='text-[22px] 3lg:text-[24px] xl:text-[28px] 2xl:text-[36px] 4k:text-[48px] text-tertiary transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer'><i className="bi bi-tiktok"></i></a>
+                                <a href={`https://wa.me/${nomorWhatsapp}`} target="_blank" rel="noopener noreferrer" className='text-[22px] 3lg:text-[24px] xl:text-[28px] 2xl:text-[36px] 4k:text-[48px] text-tertiary transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer'><i className="bi bi-whatsapp"></i></a>
+                                <a href="https://www.instagram.com/homelens.s?igsh=Z2w0MWI3eDRwcDN4&utm_source=qr" target="_blank" rel="noopener noreferrer" className='text-[22px] 3lg:text-[24px] xl:text-[28px] 2xl:text-[36px] 4k:text-[48px] text-tertiary transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer'><i className="bi bi-instagram"></i></a>
                                 <div className='bg-tertiary w-[2px] 2xl:w-[4px] 4k:w-[6px] h-[12%]'></div>
                             </div>
                         </div>
@@ -36,18 +36,17 @@ export default function Home() {
                     {/* mobile & tablet */}
                     <div className='home-box-mobile block lg:hidden w-full h-screen '>
                         <div className="mx-auto w-full h-screen relative">
-                            <p className='text-[#898D92] text-[24px] leading-tight w-[80%] pt-24 md:pt-28 xs:pt-28 px-5 xs:px-6 md:px-12'>Pellentesque mauris a lobortis in bibendum sed lobortis semper. Eget eu vel eu vitae.</p>
+                            <p className='text-[#898D92] text-[24px] leading-tight w-[80%] pt-24 md:pt-28 xs:pt-28 px-5 xs:px-6 md:px-12'>Studio fotografi yang berkomitmen untuk menciptakan pengalaman pemotretan yang personal bagi klien.</p>
                             <div className='flex items-center justify-center gap-4 mt-6 xs:mt-8 px-5 xs:px-6 md:px-12'>
                                 <div className='bg-tertiary w-20 h-[3px]'></div>
-                                <a href="https://x.com/?lang=en-id" target='_blank' className='text-[22px] text-tertiary transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer animate-fade'><i className="bi bi-twitter-x"></i></a>
-                                <a href="https://www.facebook.com/" target="_blank" className='text-[22px] text-tertiary transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer animate-fade'><i className="bi bi-facebook"></i></a>
-                                <a href="https://www.linkedin.com/" target="_blank" className='text-[22px] text-tertiary transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer animate-fade'><i className="bi bi-linkedin"></i></a>
-                                <a href="https://www.instagram.com/?hl=en" target="_blank" className='text-[22px] text-tertiary transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer animate-fade'><i className="bi bi-instagram"></i></a>
+                                <a href="https://www.tiktok.com/@homelens.studio?_t=8miYqh4iGwy&_r=1" target='_blank' className='text-[22px] text-tertiary transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer animate-fade'><i className="bi bi-tiktok"></i></a>
+                                <a href={`https://wa.me/${nomorWhatsapp}`} target="_blank" className='text-[22px] text-tertiary transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer animate-fade'><i className="bi bi-whatsapp"></i></a>
+                                <a href="https://www.instagram.com/homelens.s?igsh=Z2w0MWI3eDRwcDN4&utm_source=qr" target="_blank" className='text-[22px] text-tertiary transition-all ease-in-out duration-500 hover:scale-110 cursor-pointer animate-fade'><i className="bi bi-instagram"></i></a>
                                 <div className='bg-tertiary w-20 h-[3px]'></div>
                             </div>
                             <div className='flex flex-col mt-5 xs:mt-12 relative z-20 px-5 xs:px-6 md:px-12'>
-                                <p className='hero-fonts text-white text-[80px] md:text-[90px] leading-tight mt-2 md:mt-6 animate-fade2'>PHOTO</p>
-                                <p className='hero-fonts text-white text-[80px] md:text-[90px] leading-tight pl-10 mb-16 xs:mb-24 animate-fade2'>GRAPHY</p>
+                                <p className='hero-fonts text-white text-[80px] md:text-[90px] leading-tight mt-2 md:mt-6 animate-fade2'>STUDIO</p>
+                                <p className='hero-fonts text-white text-[80px] md:text-[90px] leading-tight pl-10 mb-16 xs:mb-24 animate-fade2'>PHOTO</p>
                             </div>
                             <img src={Hero} alt="" className='mx-auto w-full object-cover h-fit md:h-[75%] animate-fade absolute bottom-0'/>
                             {/* order button mobile */}
